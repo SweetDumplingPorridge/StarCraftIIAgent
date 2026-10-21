@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preload>
+<Actor id="SYSTEM_ActorConfig"/>
+<Terrain id="BelShirEx1"/>
+<Unit id="Barracks"/>
+<Unit id="SCV"/>
+<Unit id="Ghost"/>
+<Unit id="HighTemplar"/>
+<Unit id="Sentry"/>
+<Unit id="Observer"/>
+<Unit id="Infestor"/>
+</Preload>

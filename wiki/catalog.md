@@ -1,5 +1,7 @@
 # Wiki 页面清单
 
+本 fork 的外部补充资料从 [本地参考资料入口](../references/local/README.md) 查询，不混入官方案例清单。
+
 - [design/README.md](design/README.md)
 - [guides/editor-handoff.md](guides/editor-handoff.md)
 - [guides/multi-pc-setup.md](guides/multi-pc-setup.md)

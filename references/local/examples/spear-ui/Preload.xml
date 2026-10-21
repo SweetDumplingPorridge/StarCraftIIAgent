@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Preload>
+<Actor id="SYSTEM_ActorConfig"/>
+<Terrain id="Agria"/>
+<Unit id="Reactor"/>
+<Unit id="SupplyDepot"/>
+<Unit id="Barracks"/>
+<Unit id="EngineeringBay"/>
+<Unit id="MissileTurret"/>
+<Unit id="Bunker"/>
+<Unit id="SensorTower"/>
+<Unit id="GhostAcademy"/>
+<Unit id="Factory"/>
+<Unit id="Starport"/>
+<Unit id="Armory"/>
+<Unit id="FusionCore"/>
+<Unit id="BarracksTechLab"/>
+<Unit id="Nexus"/>
+<Unit id="Pylon"/>
+<Unit id="Gateway"/>
+<Unit id="Forge"/>
+<Unit id="FleetBeacon"/>
+<Unit id="TwilightCouncil"/>
+<Unit id="PhotonCannon"/>
+<Unit id="Stargate"/>
+<Unit id="TemplarArchive"/>
+<Unit id="DarkShrine"/>
+<Unit id="RoboticsBay"/>
+<Unit id="RoboticsFacility"/>
+<Unit id="CyberneticsCore"/>
+<Unit id="SpawningPool"/>
+<Unit id="EvolutionChamber"/>
+<Unit id="HydraliskDen"/>
+<Unit id="UltraliskCavern"/>
+<Unit id="InfestationPit"/>
+<Unit id="NydusNetwork"/>
+<Unit id="BanelingNest"/>
+<Unit id="RoachWarren"/>
+<Unit id="SpineCrawler"/>
+<Unit id="SporeCrawler"/>
+<Unit id="Lair"/>
+<Unit id="GreaterSpire"/>
+<Unit id="OrbitalCommand"/>
+<Unit id="CreepTumorBurrowed"/>
+<Unit id="NydusCanal"/>
+</Preload>

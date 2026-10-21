@@ -1,0 +1,10 @@
+﻿Trigger/Name/099DDB12=游戏开始
+Trigger/Name/204EE7A5=人族空降（虫族也差不多）
+Trigger/Name/25BA0C9F=空军降落
+Trigger/Name/43081D79=开关 2
+Trigger/Name/71283CFC=空军跳过动画
+Trigger/Name/7439C3DF=空降跳过动画
+Trigger/Name/7BC0A732=虫群埋地出地出生
+Trigger/Name/C6A7269A=开关
+Trigger/Name/F7F42F3C=星灵折跃出生（需要地图操作）
+Variable/Name/9FA5182C=空降点

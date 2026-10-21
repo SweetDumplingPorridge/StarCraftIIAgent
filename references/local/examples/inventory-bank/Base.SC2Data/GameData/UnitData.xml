@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CUnit id="Ghost">
+        <AbilArray Link="cs"/>
+        <AbilArray Link="wpl"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="chaoshi" Type="AbilCmd" AbilCmd="cs,Execute" Row="1" Column="1"/>
+        </CardLayouts>
+    </CUnit>
+</Catalog>

@@ -1,0 +1,13 @@
+﻿FunctionDef/Grammar/0995E301=~InputString~中字组的数量
+FunctionDef/Hint/0995E301=从某个字符串中返回字组的数量。文字将被视为是由空格所分隔的。
+FunctionDef/Name/0995E301=字符串中字组的数量
+ParamDef/Name/0359DD4A=输入字符串
+Trigger/Name/59943D38=随机技能
+Trigger/Name/E6D98721=初始化
+Variable/Name/09D18932=单位
+Variable/Name/3BCF3CB0=数量
+Variable/Name/4F130E99=技能命令
+Variable/Name/756ABE50=目标
+Variable/Name/9EFFE1B3=技能
+Variable/Name/A1877C45=临时记录
+Variable/Name/CA7955E0=索引

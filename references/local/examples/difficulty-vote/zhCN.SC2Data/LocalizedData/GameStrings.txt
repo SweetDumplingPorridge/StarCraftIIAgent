@@ -1,0 +1,26 @@
+﻿DocInfo/DescLong=完全没有任何描述。
+DocInfo/DescShort=任意
+DocInfo/Name=这只是另一张《星际争霸II》地图
+MapInfo/Player00/Name=中立
+MapInfo/Player01/Name=玩家1
+MapInfo/Player02/Name=敌对
+Param/Expression/4C1E2C58=~A~选择了<c val="FFFF00">普通</c>难度
+Param/Expression/69845895=~A~选择了<c val="FF00FF">大师</c>难度
+Param/Expression/6BC734ED=~A~选择了<c val="00FF00">新手</c>难度
+Param/Expression/AC08D3B9=~A~选择了<c val="FF8040">高手</c>难度
+Param/Expression/E6DEB247=~A~选择了<c val="FF0000">宗师</c>难度
+Param/Expression/EA6CDD56=经过投票，游戏难度确定为~A~
+Param/Value/2089D52D=<s val="ABChoiceResearchPoints_Zerg">投票剩余时间</s>
+Param/Value/21B81205=<c val="FF00FF">大师</c>
+Param/Value/31B5E4BC=<c val="00FF00">请等待其他玩家投票</c>
+Param/Value/36E5CDFF=<c val="00FF00">新手</c>
+Param/Value/67FEFA44=<c val="FF0000">宗师</c>
+Param/Value/7AF39CDC=<c val="DDE21D">普通</c>
+Param/Value/A401B0F8=<c val="FFFF00">普通</c>
+Param/Value/B9C5E079=<c val="FF8000">高手</c>
+Param/Value/C9D1C6DF=<c val="FF0000">宗师</c>
+Param/Value/CF7925A4=<c val="FF8040">高手</c>
+Param/Value/D5F475B9=<c val="FF00FF">大师</c>
+Param/Value/D6065364=<c val="FF8040">进攻开始时间</c>
+Param/Value/D744AFC9=<c val="00D535">新手</c>
+Param/Value/EE779846=<s val="ABChoiceResearchPoints_Zerg">请投票选择难度</s>

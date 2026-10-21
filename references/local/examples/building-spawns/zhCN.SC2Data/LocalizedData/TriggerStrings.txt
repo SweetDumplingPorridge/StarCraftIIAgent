@@ -1,0 +1,3 @@
+Trigger/Name/30243951=15秒刷一次病
+Variable/Name/2F5DD212=士兵数量
+Variable/Name/CEE9DCF0=士兵种类

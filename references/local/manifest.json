@@ -1,0 +1,1549 @@
+{
+  "schema_version": 1,
+  "upstream": {
+    "repository": "RichardM95/StarCraftIIAgent",
+    "commit": "c2f453a9803dc7c1ae88cc2fbcb96f011530066e"
+  },
+  "source_root": "workspace-relative paths; original local files unchanged",
+  "deduplication": "exact SHA-256 across upstream tracked files and selected additions; semantic skills/tools mapped in README",
+  "examples": [
+    {
+      "id": "spear-ui",
+      "title": "亚顿之矛UI",
+      "source": "参考资料/示例地图/亚顿之矛UI.SC2Map",
+      "dependencies": [
+        "bnet:自由之翼 (Mod)/0.0/999,file:Mods/Liberty.SC2Mod"
+      ],
+      "files": [
+        {
+          "source": "参考资料/示例地图/亚顿之矛UI.SC2Map/Base.SC2Data/GameData/UnitData.xml",
+          "example": "spear-ui",
+          "relative_path": "Base.SC2Data/GameData/UnitData.xml",
+          "path": "references/local/examples/spear-ui/Base.SC2Data/GameData/UnitData.xml",
+          "sha256": "e948ca96fd5c27641248a412467fb430572e23c065d45302dc9afcdb937ea217",
+          "bytes": 1274,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/亚顿之矛UI.SC2Map/Base.SC2Data/UI/Layout/a.SC2Layout",
+          "example": "spear-ui",
+          "relative_path": "Base.SC2Data/UI/Layout/a.SC2Layout",
+          "path": "references/local/examples/spear-ui/Base.SC2Data/UI/Layout/a.SC2Layout",
+          "sha256": "b746ab5a377aa618463527f3e391579500cd9ed66e0ef30843b302ea9fa41e09",
+          "bytes": 3604,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/亚顿之矛UI.SC2Map/Base.SC2Data/UI/Layout/DescIndex.SC2Layout",
+          "example": "spear-ui",
+          "relative_path": "Base.SC2Data/UI/Layout/DescIndex.SC2Layout",
+          "path": "references/local/examples/spear-ui/Base.SC2Data/UI/Layout/DescIndex.SC2Layout",
+          "sha256": "b02cde84930324dd05ead3a591957b6bdb9f62e956ec1a1e00ce9bfbd1c4e4fa",
+          "bytes": 119,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/亚顿之矛UI.SC2Map/DocumentInfo",
+          "example": "spear-ui",
+          "relative_path": "DocumentInfo",
+          "path": "references/local/examples/spear-ui/DocumentInfo",
+          "sha256": "8da28d6d08c5212d0e512b3aaa8e3c4bf0ed83d275beebfca473aa4025a92896",
+          "bytes": 250,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/亚顿之矛UI.SC2Map/Preload.xml",
+          "example": "spear-ui",
+          "relative_path": "Preload.xml",
+          "path": "references/local/examples/spear-ui/Preload.xml",
+          "sha256": "95bf214055204a5aa0966ce07e4aecbaaee97e993c7deb603f96d1c8971b3869",
+          "bytes": 1186,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/亚顿之矛UI.SC2Map/Triggers",
+          "example": "spear-ui",
+          "relative_path": "Triggers",
+          "path": "references/local/examples/spear-ui/Triggers",
+          "sha256": "38f3ddcf95136de2d0097f9e5b5c003916dc863f3e3131265e162dea5ae2de31",
+          "bytes": 6631,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/亚顿之矛UI.SC2Map/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "example": "spear-ui",
+          "relative_path": "zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "path": "references/local/examples/spear-ui/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "sha256": "de2a550bb750248bc44a063402f86af221fe1e9c3089023d8c673578da50cb5c",
+          "bytes": 225,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/亚顿之矛UI.SC2Map/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "example": "spear-ui",
+          "relative_path": "zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "path": "references/local/examples/spear-ui/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "sha256": "f154d33b49b4e9ff69f2c3e3643161121b294a9734e3179204020fefccc42e8d",
+          "bytes": 42,
+          "decision": "import"
+        }
+      ]
+    },
+    {
+      "id": "unit-arrivals",
+      "title": "单位出生方式教程     空降   折跃  出地（不知道为什么编辑器打不开所以我直接用MPQEditor解包的）",
+      "source": "参考资料/示例地图/单位出生方式教程     空降   折跃  出地（不知道为什么编辑器打不开所以我直接用MPQEditor解包的）.SC2Map",
+      "dependencies": [
+        "bnet:虚空之遗 (战役)/0.0/999,file:Campaigns/Void.SC2Campaign"
+      ],
+      "files": [
+        {
+          "source": "参考资料/示例地图/单位出生方式教程     空降   折跃  出地（不知道为什么编辑器打不开所以我直接用MPQEditor解包的）.SC2Map/Base.SC2Data/GameData/ActorData.xml",
+          "example": "unit-arrivals",
+          "relative_path": "Base.SC2Data/GameData/ActorData.xml",
+          "path": "references/local/examples/unit-arrivals/Base.SC2Data/GameData/ActorData.xml",
+          "sha256": "7f6c1c48f4802728cd0302ad007c6ea5413aeaf2bca15207b6568af617c2d820",
+          "bytes": 547,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/单位出生方式教程     空降   折跃  出地（不知道为什么编辑器打不开所以我直接用MPQEditor解包的）.SC2Map/Base.SC2Data/GameData/BehaviorData.xml",
+          "example": "unit-arrivals",
+          "relative_path": "Base.SC2Data/GameData/BehaviorData.xml",
+          "path": "references/local/examples/unit-arrivals/Base.SC2Data/GameData/BehaviorData.xml",
+          "sha256": "7a520bc65c116520ed2afcd23b5a79615a2993f855933aa0a1cae90ab39ffdbe",
+          "bytes": 170,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/单位出生方式教程     空降   折跃  出地（不知道为什么编辑器打不开所以我直接用MPQEditor解包的）.SC2Map/Base.SC2Data/GameData/UnitData.xml",
+          "example": "unit-arrivals",
+          "relative_path": "Base.SC2Data/GameData/UnitData.xml",
+          "path": "references/local/examples/unit-arrivals/Base.SC2Data/GameData/UnitData.xml",
+          "sha256": "534a367cb02763f9e0474f908e95c60c1db7f620e5e1c622c066eafd51393c1c",
+          "bytes": 143,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/单位出生方式教程     空降   折跃  出地（不知道为什么编辑器打不开所以我直接用MPQEditor解包的）.SC2Map/DocumentInfo",
+          "example": "unit-arrivals",
+          "relative_path": "DocumentInfo",
+          "path": "references/local/examples/unit-arrivals/DocumentInfo",
+          "sha256": "a25929e2798a8de6f99a56e608f0e3ab192d6505e672f7fb66d3e8dc862e00e0",
+          "bytes": 260,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/单位出生方式教程     空降   折跃  出地（不知道为什么编辑器打不开所以我直接用MPQEditor解包的）.SC2Map/Preload.xml",
+          "example": "unit-arrivals",
+          "relative_path": "Preload.xml",
+          "path": "references/local/examples/unit-arrivals/Preload.xml",
+          "sha256": "2ea3213a5205a5c312a9fce41a160ef09721d5ccaac5950bfd7d4331071e0877",
+          "bytes": 539,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/单位出生方式教程     空降   折跃  出地（不知道为什么编辑器打不开所以我直接用MPQEditor解包的）.SC2Map/Triggers",
+          "example": "unit-arrivals",
+          "relative_path": "Triggers",
+          "path": "references/local/examples/unit-arrivals/Triggers",
+          "sha256": "7475d1bdd5cf28a34287534a7a24800f7874ef6412afd073f6dfd075947ebce4",
+          "bytes": 67375,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/单位出生方式教程     空降   折跃  出地（不知道为什么编辑器打不开所以我直接用MPQEditor解包的）.SC2Map/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "example": "unit-arrivals",
+          "relative_path": "zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "path": "references/local/examples/unit-arrivals/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "sha256": "09b32042707633dffaf826ec784c6270f6d2b87cb73ac5247b4e0878d2c30043",
+          "bytes": 389,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/单位出生方式教程     空降   折跃  出地（不知道为什么编辑器打不开所以我直接用MPQEditor解包的）.SC2Map/zhCN.SC2Data/LocalizedData/ObjectStrings.txt",
+          "example": "unit-arrivals",
+          "relative_path": "zhCN.SC2Data/LocalizedData/ObjectStrings.txt",
+          "path": "references/local/examples/unit-arrivals/zhCN.SC2Data/LocalizedData/ObjectStrings.txt",
+          "sha256": "b14dd5a4d1068db3f5de6a95398903b395ebc0961e0736c4655012403776ca5b",
+          "bytes": 349,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/单位出生方式教程     空降   折跃  出地（不知道为什么编辑器打不开所以我直接用MPQEditor解包的）.SC2Map/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "example": "unit-arrivals",
+          "relative_path": "zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "path": "references/local/examples/unit-arrivals/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "sha256": "c729e77f0437f7c3a5fa86954541136b5e1a8f96908222d6d383e6952d831b1d",
+          "bytes": 429,
+          "decision": "import"
+        }
+      ]
+    },
+    {
+      "id": "random-abilities",
+      "title": "单位随机释放自身技能",
+      "source": "参考资料/示例地图/单位随机释放自身技能.SC2Map",
+      "dependencies": [
+        "bnet:虚空之遗 (Mod)/0.0/999,file:Mods/Void.SC2Mod"
+      ],
+      "files": [
+        {
+          "source": "参考资料/示例地图/单位随机释放自身技能.SC2Map/DocumentInfo",
+          "example": "random-abilities",
+          "relative_path": "DocumentInfo",
+          "path": "references/local/examples/random-abilities/DocumentInfo",
+          "sha256": "8ef9946849fbd283e3de334bac003df6d55546ecd403cf7ce6afc8c34f060c25",
+          "bytes": 247,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/单位随机释放自身技能.SC2Map/Preload.xml",
+          "example": "random-abilities",
+          "relative_path": "Preload.xml",
+          "path": "references/local/examples/random-abilities/Preload.xml",
+          "sha256": "fd6f50ca1512f2d5a585f0c1be8d816fc4f83bad280cba2258653f4ade493fcf",
+          "bytes": 279,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/单位随机释放自身技能.SC2Map/Triggers",
+          "example": "random-abilities",
+          "relative_path": "Triggers",
+          "path": "references/local/examples/random-abilities/Triggers",
+          "sha256": "24a36d228be694e21939c86226a6a8516fe9749dd1a2ee93ef37df7de1b01214",
+          "bytes": 47423,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/单位随机释放自身技能.SC2Map/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "example": "random-abilities",
+          "relative_path": "zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "path": "references/local/examples/spear-ui/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "sha256": "de2a550bb750248bc44a063402f86af221fe1e9c3089023d8c673578da50cb5c",
+          "bytes": 225,
+          "decision": "reuse"
+        },
+        {
+          "source": "参考资料/示例地图/单位随机释放自身技能.SC2Map/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "example": "random-abilities",
+          "relative_path": "zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "path": "references/local/examples/random-abilities/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "sha256": "9f5ff3223fc0877b82c0583301a7570da3af7596a3906822e208c82c1c57cbec",
+          "bytes": 576,
+          "decision": "import"
+        }
+      ]
+    },
+    {
+      "id": "watchtower-income",
+      "title": "占领瞭望塔加钱",
+      "source": "参考资料/示例地图/占领瞭望塔加钱.SC2Map",
+      "dependencies": [
+        "bnet:虫群之心(Mod)/0.0/999,file:Mods/Swarm.SC2Mod"
+      ],
+      "files": [
+        {
+          "source": "参考资料/示例地图/占领瞭望塔加钱.SC2Map/DocumentInfo",
+          "example": "watchtower-income",
+          "relative_path": "DocumentInfo",
+          "path": "references/local/examples/watchtower-income/DocumentInfo",
+          "sha256": "b9c31c71f028c05fbd2c5449f7d87adc1ce5440ec78ebe8cc0a49291953154cc",
+          "bytes": 247,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/占领瞭望塔加钱.SC2Map/Preload.xml",
+          "example": "watchtower-income",
+          "relative_path": "Preload.xml",
+          "path": "references/local/examples/watchtower-income/Preload.xml",
+          "sha256": "5a35b42b8500b588d95d9edddeba568889d07299695cacecfcc0679bc7221a5d",
+          "bytes": 224,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/占领瞭望塔加钱.SC2Map/Triggers",
+          "example": "watchtower-income",
+          "relative_path": "Triggers",
+          "path": "references/local/examples/watchtower-income/Triggers",
+          "sha256": "99de6eeeec02459670eca98ad94760d9973c9266d6d85d88c829bd07e867d8ba",
+          "bytes": 35884,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/占领瞭望塔加钱.SC2Map/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "example": "watchtower-income",
+          "relative_path": "zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "path": "references/local/examples/watchtower-income/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "sha256": "2eb778b40f5ddb600ff518f8a9e15295067dd1994fa071bbcd6bf950b30174a4",
+          "bytes": 222,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/占领瞭望塔加钱.SC2Map/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "example": "watchtower-income",
+          "relative_path": "zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "path": "references/local/examples/watchtower-income/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "sha256": "b695c11b919a5be351f57bf3b920ca3b58cf604a0dd03084ee87aa44cbb1d2b3",
+          "bytes": 240,
+          "decision": "import"
+        }
+      ]
+    },
+    {
+      "id": "card-movement",
+      "title": "卡牌移动1版",
+      "source": "参考资料/示例地图/卡牌移动1版.SC2Map",
+      "dependencies": [
+        "bnet:自由之翼 (Mod)/0.0/999,file:Mods/Liberty.SC2Mod",
+        "bnet:《魔兽争霸III》（美术Mod）/0.0/999,file:Mods/War3.SC2Mod"
+      ],
+      "files": [
+        {
+          "source": "参考资料/示例地图/卡牌移动1版.SC2Map/DocumentInfo",
+          "example": "card-movement",
+          "relative_path": "DocumentInfo",
+          "path": "references/local/examples/card-movement/DocumentInfo",
+          "sha256": "739644bd95939231f8dcb389d7c794aacd4a070c4aa0c0400a4446292760c494",
+          "bytes": 346,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/卡牌移动1版.SC2Map/Preload.xml",
+          "example": "card-movement",
+          "relative_path": "Preload.xml",
+          "path": "references/local/examples/card-movement/Preload.xml",
+          "sha256": "54a6b2e5d38e06ba8e03cd409646315e3a1b0b8e60d4cc12efd67f28589844e6",
+          "bytes": 119,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/卡牌移动1版.SC2Map/Triggers",
+          "example": "card-movement",
+          "relative_path": "Triggers",
+          "path": "references/local/examples/card-movement/Triggers",
+          "sha256": "c2a6c2a3f6eb5609378399ae72ce8d7fb458df940518d423a8c81fc25f30bc9b",
+          "bytes": 73638,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/卡牌移动1版.SC2Map/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "example": "card-movement",
+          "relative_path": "zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "path": "references/local/examples/card-movement/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "sha256": "66870d0889b2b3becf0ee9164eed02c6ced5090c94b106ec4edb16f8ac22b0ee",
+          "bytes": 336,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/卡牌移动1版.SC2Map/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "example": "card-movement",
+          "relative_path": "zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "path": "references/local/examples/card-movement/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "sha256": "675e62e143520112123d099a7e27cfc9ad2c66fd6fb5073dfa200f3ea4495853",
+          "bytes": 731,
+          "decision": "import"
+        }
+      ]
+    },
+    {
+      "id": "scv-odin-model",
+      "title": "基础演示丨SCV建造奥丁过程的模型问题",
+      "source": "参考资料/示例地图/基础演示丨SCV建造奥丁过程的模型问题.SC2Map",
+      "dependencies": [
+        "bnet:虚空之遗 (战役)/0.0/999,file:Campaigns/Void.SC2Campaign"
+      ],
+      "files": [
+        {
+          "source": "参考资料/示例地图/基础演示丨SCV建造奥丁过程的模型问题.SC2Map/Base.SC2Data/GameData/AbilData.xml",
+          "example": "scv-odin-model",
+          "relative_path": "Base.SC2Data/GameData/AbilData.xml",
+          "path": "references/local/examples/scv-odin-model/Base.SC2Data/GameData/AbilData.xml",
+          "sha256": "b2ca71516357306732aa63aedf3c61f3eb22906cb517ef992a65d61fbe98d848",
+          "bytes": 247,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/基础演示丨SCV建造奥丁过程的模型问题.SC2Map/Base.SC2Data/GameData/ActorData.xml",
+          "example": "scv-odin-model",
+          "relative_path": "Base.SC2Data/GameData/ActorData.xml",
+          "path": "references/local/examples/scv-odin-model/Base.SC2Data/GameData/ActorData.xml",
+          "sha256": "cd8618f299edae4105052c757a0f61e7e78a87a81f34733ab2896640e05cbeb6",
+          "bytes": 1793,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/基础演示丨SCV建造奥丁过程的模型问题.SC2Map/Base.SC2Data/GameData/UnitData.xml",
+          "example": "scv-odin-model",
+          "relative_path": "Base.SC2Data/GameData/UnitData.xml",
+          "path": "references/local/examples/scv-odin-model/Base.SC2Data/GameData/UnitData.xml",
+          "sha256": "570389de9483da7c62841f13c185b26499f730fbf425b101bfbc95c463a46fac",
+          "bytes": 1260,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/基础演示丨SCV建造奥丁过程的模型问题.SC2Map/DocumentInfo",
+          "example": "scv-odin-model",
+          "relative_path": "DocumentInfo",
+          "path": "references/local/examples/unit-arrivals/DocumentInfo",
+          "sha256": "a25929e2798a8de6f99a56e608f0e3ab192d6505e672f7fb66d3e8dc862e00e0",
+          "bytes": 260,
+          "decision": "reuse"
+        },
+        {
+          "source": "参考资料/示例地图/基础演示丨SCV建造奥丁过程的模型问题.SC2Map/Preload.xml",
+          "example": "scv-odin-model",
+          "relative_path": "Preload.xml",
+          "path": "references/local/examples/scv-odin-model/Preload.xml",
+          "sha256": "f0d0478625c6cdf0ba5c5c582f6954ecd15302c33631f5e3a4aa16e4a82f5aee",
+          "bytes": 176,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/基础演示丨SCV建造奥丁过程的模型问题.SC2Map/Triggers",
+          "example": "scv-odin-model",
+          "relative_path": "Triggers",
+          "path": "references/local/examples/scv-odin-model/Triggers",
+          "sha256": "a8bfdc096ccc89ca968b8c51347de4d94c114867d451bf59dfa4031cd1ba9a61",
+          "bytes": 4714,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/基础演示丨SCV建造奥丁过程的模型问题.SC2Map/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "example": "scv-odin-model",
+          "relative_path": "zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "path": "references/local/examples/scv-odin-model/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "sha256": "2a01f283485ad8f9657681191701ccd23f40dec8322f1d824e8cded1f9464a37",
+          "bytes": 269,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/基础演示丨SCV建造奥丁过程的模型问题.SC2Map/zhCN.SC2Data/LocalizedData/ObjectStrings.txt",
+          "example": "scv-odin-model",
+          "relative_path": "zhCN.SC2Data/LocalizedData/ObjectStrings.txt",
+          "path": "references/local/examples/scv-odin-model/zhCN.SC2Data/LocalizedData/ObjectStrings.txt",
+          "sha256": "7e38e84cfe3de51c194edb802e9f68a5671438db72b1ea669ce1f55a600c51b6",
+          "bytes": 296,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/基础演示丨SCV建造奥丁过程的模型问题.SC2Map/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "example": "scv-odin-model",
+          "relative_path": "zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "path": "references/local/examples/scv-odin-model/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "sha256": "34ca66263084e6ebd5076a2f1c3b2164f6239c1c0e26ada6981fbcabdbcb0950",
+          "bytes": 42,
+          "decision": "import"
+        }
+      ]
+    },
+    {
+      "id": "inventory-bank",
+      "title": "物品栏（购买，撤销，存档）",
+      "source": "参考资料/示例地图/物品栏（购买，撤销，存档）.SC2Map",
+      "dependencies": [
+        "bnet:自由之翼 (战役)/0.0/999,file:Campaigns/Liberty.SC2Campaign"
+      ],
+      "files": [
+        {
+          "source": "参考资料/示例地图/物品栏（购买，撤销，存档）.SC2Map/BankList.xml",
+          "example": "inventory-bank",
+          "relative_path": "BankList.xml",
+          "path": "references/local/examples/inventory-bank/BankList.xml",
+          "sha256": "0a128c29a3140cb848163e65d48cb896838f0345acfc7cc317a2e02fdd6585b4",
+          "bytes": 104,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/物品栏（购买，撤销，存档）.SC2Map/Base.SC2Data/GameData/AbilData.xml",
+          "example": "inventory-bank",
+          "relative_path": "Base.SC2Data/GameData/AbilData.xml",
+          "path": "references/local/examples/inventory-bank/Base.SC2Data/GameData/AbilData.xml",
+          "sha256": "694cd347068c9d115f7b51b92af4e704ce8f3be742f2a2d0187b78e97dee0f93",
+          "bytes": 556,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/物品栏（购买，撤销，存档）.SC2Map/Base.SC2Data/GameData/ButtonData.xml",
+          "example": "inventory-bank",
+          "relative_path": "Base.SC2Data/GameData/ButtonData.xml",
+          "path": "references/local/examples/inventory-bank/Base.SC2Data/GameData/ButtonData.xml",
+          "sha256": "2e35663b54c15923f6fcdf5156c8fd6a8b3866c5a92535db222020f9bd53dafa",
+          "bytes": 188,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/物品栏（购买，撤销，存档）.SC2Map/Base.SC2Data/GameData/UnitData.xml",
+          "example": "inventory-bank",
+          "relative_path": "Base.SC2Data/GameData/UnitData.xml",
+          "path": "references/local/examples/inventory-bank/Base.SC2Data/GameData/UnitData.xml",
+          "sha256": "735bd7bb8fb7f2ae0ebbe7006bdfa6da3c665e757a0f4f132691cdb0a124d19c",
+          "bytes": 326,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/物品栏（购买，撤销，存档）.SC2Map/DocumentInfo",
+          "example": "inventory-bank",
+          "relative_path": "DocumentInfo",
+          "path": "references/local/examples/inventory-bank/DocumentInfo",
+          "sha256": "316bf86f210dabfdfdc29932c4b4284487bfb311fc3c0ba7d363e4f93c6c6f66",
+          "bytes": 263,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/物品栏（购买，撤销，存档）.SC2Map/Preload.xml",
+          "example": "inventory-bank",
+          "relative_path": "Preload.xml",
+          "path": "references/local/examples/inventory-bank/Preload.xml",
+          "sha256": "eb662aa7a04c2682d036da21fbd3fc329872fb4b0a9c4d05ee3035c66e229cf4",
+          "bytes": 897,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/物品栏（购买，撤销，存档）.SC2Map/Triggers",
+          "example": "inventory-bank",
+          "relative_path": "Triggers",
+          "path": "references/local/examples/inventory-bank/Triggers",
+          "sha256": "243cda46dd6e893cd537f2b93d8a09ff95df28950ca9ad50f000f24eb445245c",
+          "bytes": 313033,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/物品栏（购买，撤销，存档）.SC2Map/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "example": "inventory-bank",
+          "relative_path": "zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "path": "references/local/examples/inventory-bank/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "sha256": "4873abf56392401e3c6b788d74a6d392474195d6c5776118ee9057aa382d0b10",
+          "bytes": 468,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/物品栏（购买，撤销，存档）.SC2Map/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "example": "inventory-bank",
+          "relative_path": "zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "path": "references/local/examples/inventory-bank/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "sha256": "5bab8abac514ba422fcd7ed9e8171af63050355b7da5a841e0caec83b9cdbe97",
+          "bytes": 1896,
+          "decision": "import"
+        }
+      ]
+    },
+    {
+      "id": "scoreboard",
+      "title": "计分板",
+      "source": "参考资料/示例地图/计分板.SC2Map",
+      "dependencies": [
+        "bnet:自由之翼 (Mod)/0.0/999,file:Mods/Liberty.SC2Mod"
+      ],
+      "files": [
+        {
+          "source": "参考资料/示例地图/计分板.SC2Map/Base.SC2Data/GameData/EffectData.xml",
+          "example": "scoreboard",
+          "relative_path": "Base.SC2Data/GameData/EffectData.xml",
+          "path": "references/local/examples/scoreboard/Base.SC2Data/GameData/EffectData.xml",
+          "sha256": "5e431f7d97b7b0623fae629f87413eded5de4c5995ef9cd35f2f087a520ff6ed",
+          "bytes": 162,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/计分板.SC2Map/Base.SC2Data/GameData/WaterData.xml",
+          "example": "scoreboard",
+          "relative_path": "Base.SC2Data/GameData/WaterData.xml",
+          "path": "references/local/examples/scoreboard/Base.SC2Data/GameData/WaterData.xml",
+          "sha256": "d707a09090663b393ea423077e9008f581a160c62e5fcfefa15ee7a040f31f32",
+          "bytes": 1514,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/计分板.SC2Map/DocumentInfo",
+          "example": "scoreboard",
+          "relative_path": "DocumentInfo",
+          "path": "references/local/examples/spear-ui/DocumentInfo",
+          "sha256": "8da28d6d08c5212d0e512b3aaa8e3c4bf0ed83d275beebfca473aa4025a92896",
+          "bytes": 250,
+          "decision": "reuse"
+        },
+        {
+          "source": "参考资料/示例地图/计分板.SC2Map/Preload.xml",
+          "example": "scoreboard",
+          "relative_path": "Preload.xml",
+          "path": "references/local/examples/scoreboard/Preload.xml",
+          "sha256": "e9b74a701a0cdeaa37e2fe36d67a1c3cc8c709a7642015524f3797fa5088a489",
+          "bytes": 243,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/计分板.SC2Map/Triggers",
+          "example": "scoreboard",
+          "relative_path": "Triggers",
+          "path": "references/local/examples/scoreboard/Triggers",
+          "sha256": "6d8a3537daef3a62d309d8c2f1a71b829c0e939d364134514296aade08b857d1",
+          "bytes": 30469,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/计分板.SC2Map/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "example": "scoreboard",
+          "relative_path": "zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "path": "references/local/examples/scoreboard/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "sha256": "21987089b4a6be20d44f833ec2f1e0f97aad38b945a5f46b1e2518d72e6bd255",
+          "bytes": 289,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/计分板.SC2Map/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "example": "scoreboard",
+          "relative_path": "zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "path": "references/local/examples/scoreboard/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "sha256": "8fb9a5bf20c5d81d8d9335ea26e7899e811bd5bd691e98e6d6cb7ce688212f74",
+          "bytes": 297,
+          "decision": "import"
+        }
+      ]
+    },
+    {
+      "id": "building-spawns",
+      "title": "造房子刷兵",
+      "source": "参考资料/示例地图/造房子刷兵.SC2Map",
+      "dependencies": [
+        "bnet:虫群之心(Mod)/0.0/999,file:Mods/Swarm.SC2Mod"
+      ],
+      "files": [
+        {
+          "source": "参考资料/示例地图/造房子刷兵.SC2Map/Base.SC2Data/GameData/AbilData.xml",
+          "example": "building-spawns",
+          "relative_path": "Base.SC2Data/GameData/AbilData.xml",
+          "path": "references/local/examples/building-spawns/Base.SC2Data/GameData/AbilData.xml",
+          "sha256": "e5eb631f5401bb3c0374ffdcce98733fe9cce747908ae2e68622d1c49d91a8b6",
+          "bytes": 166,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/造房子刷兵.SC2Map/Base.SC2Data/GameData/UnitData.xml",
+          "example": "building-spawns",
+          "relative_path": "Base.SC2Data/GameData/UnitData.xml",
+          "path": "references/local/examples/building-spawns/Base.SC2Data/GameData/UnitData.xml",
+          "sha256": "54bcfb88142ed4a945919f2184a3eb4e14627b03ca35829ac715a952563d9a9b",
+          "bytes": 162,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/造房子刷兵.SC2Map/DocumentInfo",
+          "example": "building-spawns",
+          "relative_path": "DocumentInfo",
+          "path": "references/local/examples/watchtower-income/DocumentInfo",
+          "sha256": "b9c31c71f028c05fbd2c5449f7d87adc1ce5440ec78ebe8cc0a49291953154cc",
+          "bytes": 247,
+          "decision": "reuse"
+        },
+        {
+          "source": "参考资料/示例地图/造房子刷兵.SC2Map/Preload.xml",
+          "example": "building-spawns",
+          "relative_path": "Preload.xml",
+          "path": "references/local/examples/building-spawns/Preload.xml",
+          "sha256": "e802d895ce5e04a72e6e6a1a3a4aa5a33280fbbdf5743bd5169719ffdc4cbec8",
+          "bytes": 169,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/造房子刷兵.SC2Map/Triggers",
+          "example": "building-spawns",
+          "relative_path": "Triggers",
+          "path": "references/local/examples/building-spawns/Triggers",
+          "sha256": "81117e6c9d2b818cb65ff12abec6cee6df052b947422a4527d6730d8b55aa97c",
+          "bytes": 6199,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/造房子刷兵.SC2Map/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "example": "building-spawns",
+          "relative_path": "zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "path": "references/local/examples/watchtower-income/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "sha256": "2eb778b40f5ddb600ff518f8a9e15295067dd1994fa071bbcd6bf950b30174a4",
+          "bytes": 222,
+          "decision": "reuse"
+        },
+        {
+          "source": "参考资料/示例地图/造房子刷兵.SC2Map/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "example": "building-spawns",
+          "relative_path": "zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "path": "references/local/examples/building-spawns/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "sha256": "c36328c6a6b310fd685569eda34d5b7759f8f76db46cadd9e3267995fb2c8c82",
+          "bytes": 115,
+          "decision": "import"
+        }
+      ]
+    },
+    {
+      "id": "alliances-spawns",
+      "title": "随机结盟，随机出生点",
+      "source": "参考资料/示例地图/随机结盟，随机出生点.SC2Map",
+      "dependencies": [
+        "bnet:虚空之遗 (战役)/0.0/999,file:Campaigns/Void.SC2Campaign"
+      ],
+      "files": [
+        {
+          "source": "参考资料/示例地图/随机结盟，随机出生点.SC2Map/Base.SC2Data/GameData/GameUIData.xml",
+          "example": "alliances-spawns",
+          "relative_path": "Base.SC2Data/GameData/GameUIData.xml",
+          "path": "references/local/examples/alliances-spawns/Base.SC2Data/GameData/GameUIData.xml",
+          "sha256": "ea446ab8e248e960252cd19a001833b361133eb4357155c195bb855ba85f264a",
+          "bytes": 3518,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/随机结盟，随机出生点.SC2Map/Base.SC2Data/GameData/LightData.xml",
+          "example": "alliances-spawns",
+          "relative_path": "Base.SC2Data/GameData/LightData.xml",
+          "path": "references/local/examples/alliances-spawns/Base.SC2Data/GameData/LightData.xml",
+          "sha256": "c564953fd9c34b5a7289b12518a646990f95dafccf8c91e90e8fa60a2c1a952e",
+          "bytes": 934,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/随机结盟，随机出生点.SC2Map/Base.SC2Data/GameData/TerrainData.xml",
+          "example": "alliances-spawns",
+          "relative_path": "Base.SC2Data/GameData/TerrainData.xml",
+          "path": "references/local/examples/alliances-spawns/Base.SC2Data/GameData/TerrainData.xml",
+          "sha256": "eb9d5c9523dc2178f422c5aea519c4e640a1d4f4b81762f7d3584c9d3e54df2a",
+          "bytes": 250,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/随机结盟，随机出生点.SC2Map/DocumentInfo",
+          "example": "alliances-spawns",
+          "relative_path": "DocumentInfo",
+          "path": "references/local/examples/unit-arrivals/DocumentInfo",
+          "sha256": "a25929e2798a8de6f99a56e608f0e3ab192d6505e672f7fb66d3e8dc862e00e0",
+          "bytes": 260,
+          "decision": "reuse"
+        },
+        {
+          "source": "参考资料/示例地图/随机结盟，随机出生点.SC2Map/Preload.xml",
+          "example": "alliances-spawns",
+          "relative_path": "Preload.xml",
+          "path": "references/local/examples/alliances-spawns/Preload.xml",
+          "sha256": "e9c8f988078ebfc5656bc64a848d0129da6001ad0283811fa8eb27bab15b4060",
+          "bytes": 205,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/随机结盟，随机出生点.SC2Map/Triggers",
+          "example": "alliances-spawns",
+          "relative_path": "Triggers",
+          "path": "references/local/examples/alliances-spawns/Triggers",
+          "sha256": "53ca8db88e8c869b70081ac7f1d94b2a6e450398ed618685c59f2535ff6c11bd",
+          "bytes": 45859,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/随机结盟，随机出生点.SC2Map/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "example": "alliances-spawns",
+          "relative_path": "zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "path": "references/local/examples/alliances-spawns/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "sha256": "73e1a8320e3cdd41404538170dbeacc216b0e46175aaa2ed7423330bdf6d8281",
+          "bytes": 1324,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/随机结盟，随机出生点.SC2Map/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "example": "alliances-spawns",
+          "relative_path": "zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "path": "references/local/examples/alliances-spawns/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "sha256": "5d3f73e653d33e3d1a1e012b7b73533c02ad51ab00bebe0cd0c2662de7924a06",
+          "bytes": 394,
+          "decision": "import"
+        }
+      ]
+    },
+    {
+      "id": "difficulty-vote",
+      "title": "难度投票系统创建演示",
+      "source": "参考资料/示例地图/难度投票系统创建演示.SC2Map",
+      "dependencies": [
+        "bnet:虚空之遗 (Mod)/0.0/999,file:Mods/Void.SC2Mod"
+      ],
+      "files": [
+        {
+          "source": "参考资料/示例地图/难度投票系统创建演示.SC2Map/DocumentInfo",
+          "example": "difficulty-vote",
+          "relative_path": "DocumentInfo",
+          "path": "references/local/examples/random-abilities/DocumentInfo",
+          "sha256": "8ef9946849fbd283e3de334bac003df6d55546ecd403cf7ce6afc8c34f060c25",
+          "bytes": 247,
+          "decision": "reuse"
+        },
+        {
+          "source": "参考资料/示例地图/难度投票系统创建演示.SC2Map/Preload.xml",
+          "example": "difficulty-vote",
+          "relative_path": "Preload.xml",
+          "path": "references/local/examples/difficulty-vote/Preload.xml",
+          "sha256": "efe87a60f0d792e81d3a514632786cb297d1a37abfba1179745c88549b30ea2a",
+          "bytes": 205,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/难度投票系统创建演示.SC2Map/Triggers",
+          "example": "difficulty-vote",
+          "relative_path": "Triggers",
+          "path": "references/local/examples/difficulty-vote/Triggers",
+          "sha256": "aedcc1d14fb628e3921fd42a59c12ab7ae1dac46325ebbe20f63d04fdf1d53d0",
+          "bytes": 150525,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/难度投票系统创建演示.SC2Map/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "example": "difficulty-vote",
+          "relative_path": "zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "path": "references/local/examples/difficulty-vote/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+          "sha256": "78ff04a885c90d63a517246722d4c8cbb113d6953e6be68f692186ea59946ab0",
+          "bytes": 1440,
+          "decision": "import"
+        },
+        {
+          "source": "参考资料/示例地图/难度投票系统创建演示.SC2Map/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "example": "difficulty-vote",
+          "relative_path": "zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "path": "references/local/examples/difficulty-vote/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+          "sha256": "d1bf4930ff90e8d2535cc5fc6d85a414a8b6ecb3d1c067159ce5f495fc77e4d6",
+          "bytes": 723,
+          "decision": "import"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "source": "参考资料/示例地图/亚顿之矛UI.SC2Map/Base.SC2Data/GameData/UnitData.xml",
+      "example": "spear-ui",
+      "relative_path": "Base.SC2Data/GameData/UnitData.xml",
+      "path": "references/local/examples/spear-ui/Base.SC2Data/GameData/UnitData.xml",
+      "sha256": "e948ca96fd5c27641248a412467fb430572e23c065d45302dc9afcdb937ea217",
+      "bytes": 1274,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/亚顿之矛UI.SC2Map/Base.SC2Data/UI/Layout/a.SC2Layout",
+      "example": "spear-ui",
+      "relative_path": "Base.SC2Data/UI/Layout/a.SC2Layout",
+      "path": "references/local/examples/spear-ui/Base.SC2Data/UI/Layout/a.SC2Layout",
+      "sha256": "b746ab5a377aa618463527f3e391579500cd9ed66e0ef30843b302ea9fa41e09",
+      "bytes": 3604,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/亚顿之矛UI.SC2Map/Base.SC2Data/UI/Layout/DescIndex.SC2Layout",
+      "example": "spear-ui",
+      "relative_path": "Base.SC2Data/UI/Layout/DescIndex.SC2Layout",
+      "path": "references/local/examples/spear-ui/Base.SC2Data/UI/Layout/DescIndex.SC2Layout",
+      "sha256": "b02cde84930324dd05ead3a591957b6bdb9f62e956ec1a1e00ce9bfbd1c4e4fa",
+      "bytes": 119,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/亚顿之矛UI.SC2Map/DocumentInfo",
+      "example": "spear-ui",
+      "relative_path": "DocumentInfo",
+      "path": "references/local/examples/spear-ui/DocumentInfo",
+      "sha256": "8da28d6d08c5212d0e512b3aaa8e3c4bf0ed83d275beebfca473aa4025a92896",
+      "bytes": 250,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/亚顿之矛UI.SC2Map/Preload.xml",
+      "example": "spear-ui",
+      "relative_path": "Preload.xml",
+      "path": "references/local/examples/spear-ui/Preload.xml",
+      "sha256": "95bf214055204a5aa0966ce07e4aecbaaee97e993c7deb603f96d1c8971b3869",
+      "bytes": 1186,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/亚顿之矛UI.SC2Map/Triggers",
+      "example": "spear-ui",
+      "relative_path": "Triggers",
+      "path": "references/local/examples/spear-ui/Triggers",
+      "sha256": "38f3ddcf95136de2d0097f9e5b5c003916dc863f3e3131265e162dea5ae2de31",
+      "bytes": 6631,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/亚顿之矛UI.SC2Map/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "example": "spear-ui",
+      "relative_path": "zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "path": "references/local/examples/spear-ui/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "sha256": "de2a550bb750248bc44a063402f86af221fe1e9c3089023d8c673578da50cb5c",
+      "bytes": 225,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/亚顿之矛UI.SC2Map/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "example": "spear-ui",
+      "relative_path": "zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "path": "references/local/examples/spear-ui/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "sha256": "f154d33b49b4e9ff69f2c3e3643161121b294a9734e3179204020fefccc42e8d",
+      "bytes": 42,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/单位出生方式教程     空降   折跃  出地（不知道为什么编辑器打不开所以我直接用MPQEditor解包的）.SC2Map/Base.SC2Data/GameData/ActorData.xml",
+      "example": "unit-arrivals",
+      "relative_path": "Base.SC2Data/GameData/ActorData.xml",
+      "path": "references/local/examples/unit-arrivals/Base.SC2Data/GameData/ActorData.xml",
+      "sha256": "7f6c1c48f4802728cd0302ad007c6ea5413aeaf2bca15207b6568af617c2d820",
+      "bytes": 547,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/单位出生方式教程     空降   折跃  出地（不知道为什么编辑器打不开所以我直接用MPQEditor解包的）.SC2Map/Base.SC2Data/GameData/BehaviorData.xml",
+      "example": "unit-arrivals",
+      "relative_path": "Base.SC2Data/GameData/BehaviorData.xml",
+      "path": "references/local/examples/unit-arrivals/Base.SC2Data/GameData/BehaviorData.xml",
+      "sha256": "7a520bc65c116520ed2afcd23b5a79615a2993f855933aa0a1cae90ab39ffdbe",
+      "bytes": 170,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/单位出生方式教程     空降   折跃  出地（不知道为什么编辑器打不开所以我直接用MPQEditor解包的）.SC2Map/Base.SC2Data/GameData/UnitData.xml",
+      "example": "unit-arrivals",
+      "relative_path": "Base.SC2Data/GameData/UnitData.xml",
+      "path": "references/local/examples/unit-arrivals/Base.SC2Data/GameData/UnitData.xml",
+      "sha256": "534a367cb02763f9e0474f908e95c60c1db7f620e5e1c622c066eafd51393c1c",
+      "bytes": 143,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/单位出生方式教程     空降   折跃  出地（不知道为什么编辑器打不开所以我直接用MPQEditor解包的）.SC2Map/DocumentInfo",
+      "example": "unit-arrivals",
+      "relative_path": "DocumentInfo",
+      "path": "references/local/examples/unit-arrivals/DocumentInfo",
+      "sha256": "a25929e2798a8de6f99a56e608f0e3ab192d6505e672f7fb66d3e8dc862e00e0",
+      "bytes": 260,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/单位出生方式教程     空降   折跃  出地（不知道为什么编辑器打不开所以我直接用MPQEditor解包的）.SC2Map/Preload.xml",
+      "example": "unit-arrivals",
+      "relative_path": "Preload.xml",
+      "path": "references/local/examples/unit-arrivals/Preload.xml",
+      "sha256": "2ea3213a5205a5c312a9fce41a160ef09721d5ccaac5950bfd7d4331071e0877",
+      "bytes": 539,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/单位出生方式教程     空降   折跃  出地（不知道为什么编辑器打不开所以我直接用MPQEditor解包的）.SC2Map/Triggers",
+      "example": "unit-arrivals",
+      "relative_path": "Triggers",
+      "path": "references/local/examples/unit-arrivals/Triggers",
+      "sha256": "7475d1bdd5cf28a34287534a7a24800f7874ef6412afd073f6dfd075947ebce4",
+      "bytes": 67375,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/单位出生方式教程     空降   折跃  出地（不知道为什么编辑器打不开所以我直接用MPQEditor解包的）.SC2Map/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "example": "unit-arrivals",
+      "relative_path": "zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "path": "references/local/examples/unit-arrivals/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "sha256": "09b32042707633dffaf826ec784c6270f6d2b87cb73ac5247b4e0878d2c30043",
+      "bytes": 389,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/单位出生方式教程     空降   折跃  出地（不知道为什么编辑器打不开所以我直接用MPQEditor解包的）.SC2Map/zhCN.SC2Data/LocalizedData/ObjectStrings.txt",
+      "example": "unit-arrivals",
+      "relative_path": "zhCN.SC2Data/LocalizedData/ObjectStrings.txt",
+      "path": "references/local/examples/unit-arrivals/zhCN.SC2Data/LocalizedData/ObjectStrings.txt",
+      "sha256": "b14dd5a4d1068db3f5de6a95398903b395ebc0961e0736c4655012403776ca5b",
+      "bytes": 349,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/单位出生方式教程     空降   折跃  出地（不知道为什么编辑器打不开所以我直接用MPQEditor解包的）.SC2Map/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "example": "unit-arrivals",
+      "relative_path": "zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "path": "references/local/examples/unit-arrivals/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "sha256": "c729e77f0437f7c3a5fa86954541136b5e1a8f96908222d6d383e6952d831b1d",
+      "bytes": 429,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/单位随机释放自身技能.SC2Map/DocumentInfo",
+      "example": "random-abilities",
+      "relative_path": "DocumentInfo",
+      "path": "references/local/examples/random-abilities/DocumentInfo",
+      "sha256": "8ef9946849fbd283e3de334bac003df6d55546ecd403cf7ce6afc8c34f060c25",
+      "bytes": 247,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/单位随机释放自身技能.SC2Map/Preload.xml",
+      "example": "random-abilities",
+      "relative_path": "Preload.xml",
+      "path": "references/local/examples/random-abilities/Preload.xml",
+      "sha256": "fd6f50ca1512f2d5a585f0c1be8d816fc4f83bad280cba2258653f4ade493fcf",
+      "bytes": 279,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/单位随机释放自身技能.SC2Map/Triggers",
+      "example": "random-abilities",
+      "relative_path": "Triggers",
+      "path": "references/local/examples/random-abilities/Triggers",
+      "sha256": "24a36d228be694e21939c86226a6a8516fe9749dd1a2ee93ef37df7de1b01214",
+      "bytes": 47423,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/单位随机释放自身技能.SC2Map/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "example": "random-abilities",
+      "relative_path": "zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "path": "references/local/examples/spear-ui/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "sha256": "de2a550bb750248bc44a063402f86af221fe1e9c3089023d8c673578da50cb5c",
+      "bytes": 225,
+      "decision": "reuse"
+    },
+    {
+      "source": "参考资料/示例地图/单位随机释放自身技能.SC2Map/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "example": "random-abilities",
+      "relative_path": "zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "path": "references/local/examples/random-abilities/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "sha256": "9f5ff3223fc0877b82c0583301a7570da3af7596a3906822e208c82c1c57cbec",
+      "bytes": 576,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/占领瞭望塔加钱.SC2Map/DocumentInfo",
+      "example": "watchtower-income",
+      "relative_path": "DocumentInfo",
+      "path": "references/local/examples/watchtower-income/DocumentInfo",
+      "sha256": "b9c31c71f028c05fbd2c5449f7d87adc1ce5440ec78ebe8cc0a49291953154cc",
+      "bytes": 247,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/占领瞭望塔加钱.SC2Map/Preload.xml",
+      "example": "watchtower-income",
+      "relative_path": "Preload.xml",
+      "path": "references/local/examples/watchtower-income/Preload.xml",
+      "sha256": "5a35b42b8500b588d95d9edddeba568889d07299695cacecfcc0679bc7221a5d",
+      "bytes": 224,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/占领瞭望塔加钱.SC2Map/Triggers",
+      "example": "watchtower-income",
+      "relative_path": "Triggers",
+      "path": "references/local/examples/watchtower-income/Triggers",
+      "sha256": "99de6eeeec02459670eca98ad94760d9973c9266d6d85d88c829bd07e867d8ba",
+      "bytes": 35884,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/占领瞭望塔加钱.SC2Map/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "example": "watchtower-income",
+      "relative_path": "zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "path": "references/local/examples/watchtower-income/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "sha256": "2eb778b40f5ddb600ff518f8a9e15295067dd1994fa071bbcd6bf950b30174a4",
+      "bytes": 222,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/占领瞭望塔加钱.SC2Map/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "example": "watchtower-income",
+      "relative_path": "zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "path": "references/local/examples/watchtower-income/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "sha256": "b695c11b919a5be351f57bf3b920ca3b58cf604a0dd03084ee87aa44cbb1d2b3",
+      "bytes": 240,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/卡牌移动1版.SC2Map/DocumentInfo",
+      "example": "card-movement",
+      "relative_path": "DocumentInfo",
+      "path": "references/local/examples/card-movement/DocumentInfo",
+      "sha256": "739644bd95939231f8dcb389d7c794aacd4a070c4aa0c0400a4446292760c494",
+      "bytes": 346,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/卡牌移动1版.SC2Map/Preload.xml",
+      "example": "card-movement",
+      "relative_path": "Preload.xml",
+      "path": "references/local/examples/card-movement/Preload.xml",
+      "sha256": "54a6b2e5d38e06ba8e03cd409646315e3a1b0b8e60d4cc12efd67f28589844e6",
+      "bytes": 119,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/卡牌移动1版.SC2Map/Triggers",
+      "example": "card-movement",
+      "relative_path": "Triggers",
+      "path": "references/local/examples/card-movement/Triggers",
+      "sha256": "c2a6c2a3f6eb5609378399ae72ce8d7fb458df940518d423a8c81fc25f30bc9b",
+      "bytes": 73638,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/卡牌移动1版.SC2Map/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "example": "card-movement",
+      "relative_path": "zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "path": "references/local/examples/card-movement/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "sha256": "66870d0889b2b3becf0ee9164eed02c6ced5090c94b106ec4edb16f8ac22b0ee",
+      "bytes": 336,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/卡牌移动1版.SC2Map/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "example": "card-movement",
+      "relative_path": "zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "path": "references/local/examples/card-movement/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "sha256": "675e62e143520112123d099a7e27cfc9ad2c66fd6fb5073dfa200f3ea4495853",
+      "bytes": 731,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/基础演示丨SCV建造奥丁过程的模型问题.SC2Map/Base.SC2Data/GameData/AbilData.xml",
+      "example": "scv-odin-model",
+      "relative_path": "Base.SC2Data/GameData/AbilData.xml",
+      "path": "references/local/examples/scv-odin-model/Base.SC2Data/GameData/AbilData.xml",
+      "sha256": "b2ca71516357306732aa63aedf3c61f3eb22906cb517ef992a65d61fbe98d848",
+      "bytes": 247,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/基础演示丨SCV建造奥丁过程的模型问题.SC2Map/Base.SC2Data/GameData/ActorData.xml",
+      "example": "scv-odin-model",
+      "relative_path": "Base.SC2Data/GameData/ActorData.xml",
+      "path": "references/local/examples/scv-odin-model/Base.SC2Data/GameData/ActorData.xml",
+      "sha256": "cd8618f299edae4105052c757a0f61e7e78a87a81f34733ab2896640e05cbeb6",
+      "bytes": 1793,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/基础演示丨SCV建造奥丁过程的模型问题.SC2Map/Base.SC2Data/GameData/UnitData.xml",
+      "example": "scv-odin-model",
+      "relative_path": "Base.SC2Data/GameData/UnitData.xml",
+      "path": "references/local/examples/scv-odin-model/Base.SC2Data/GameData/UnitData.xml",
+      "sha256": "570389de9483da7c62841f13c185b26499f730fbf425b101bfbc95c463a46fac",
+      "bytes": 1260,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/基础演示丨SCV建造奥丁过程的模型问题.SC2Map/DocumentInfo",
+      "example": "scv-odin-model",
+      "relative_path": "DocumentInfo",
+      "path": "references/local/examples/unit-arrivals/DocumentInfo",
+      "sha256": "a25929e2798a8de6f99a56e608f0e3ab192d6505e672f7fb66d3e8dc862e00e0",
+      "bytes": 260,
+      "decision": "reuse"
+    },
+    {
+      "source": "参考资料/示例地图/基础演示丨SCV建造奥丁过程的模型问题.SC2Map/Preload.xml",
+      "example": "scv-odin-model",
+      "relative_path": "Preload.xml",
+      "path": "references/local/examples/scv-odin-model/Preload.xml",
+      "sha256": "f0d0478625c6cdf0ba5c5c582f6954ecd15302c33631f5e3a4aa16e4a82f5aee",
+      "bytes": 176,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/基础演示丨SCV建造奥丁过程的模型问题.SC2Map/Triggers",
+      "example": "scv-odin-model",
+      "relative_path": "Triggers",
+      "path": "references/local/examples/scv-odin-model/Triggers",
+      "sha256": "a8bfdc096ccc89ca968b8c51347de4d94c114867d451bf59dfa4031cd1ba9a61",
+      "bytes": 4714,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/基础演示丨SCV建造奥丁过程的模型问题.SC2Map/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "example": "scv-odin-model",
+      "relative_path": "zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "path": "references/local/examples/scv-odin-model/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "sha256": "2a01f283485ad8f9657681191701ccd23f40dec8322f1d824e8cded1f9464a37",
+      "bytes": 269,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/基础演示丨SCV建造奥丁过程的模型问题.SC2Map/zhCN.SC2Data/LocalizedData/ObjectStrings.txt",
+      "example": "scv-odin-model",
+      "relative_path": "zhCN.SC2Data/LocalizedData/ObjectStrings.txt",
+      "path": "references/local/examples/scv-odin-model/zhCN.SC2Data/LocalizedData/ObjectStrings.txt",
+      "sha256": "7e38e84cfe3de51c194edb802e9f68a5671438db72b1ea669ce1f55a600c51b6",
+      "bytes": 296,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/基础演示丨SCV建造奥丁过程的模型问题.SC2Map/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "example": "scv-odin-model",
+      "relative_path": "zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "path": "references/local/examples/scv-odin-model/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "sha256": "34ca66263084e6ebd5076a2f1c3b2164f6239c1c0e26ada6981fbcabdbcb0950",
+      "bytes": 42,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/物品栏（购买，撤销，存档）.SC2Map/BankList.xml",
+      "example": "inventory-bank",
+      "relative_path": "BankList.xml",
+      "path": "references/local/examples/inventory-bank/BankList.xml",
+      "sha256": "0a128c29a3140cb848163e65d48cb896838f0345acfc7cc317a2e02fdd6585b4",
+      "bytes": 104,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/物品栏（购买，撤销，存档）.SC2Map/Base.SC2Data/GameData/AbilData.xml",
+      "example": "inventory-bank",
+      "relative_path": "Base.SC2Data/GameData/AbilData.xml",
+      "path": "references/local/examples/inventory-bank/Base.SC2Data/GameData/AbilData.xml",
+      "sha256": "694cd347068c9d115f7b51b92af4e704ce8f3be742f2a2d0187b78e97dee0f93",
+      "bytes": 556,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/物品栏（购买，撤销，存档）.SC2Map/Base.SC2Data/GameData/ButtonData.xml",
+      "example": "inventory-bank",
+      "relative_path": "Base.SC2Data/GameData/ButtonData.xml",
+      "path": "references/local/examples/inventory-bank/Base.SC2Data/GameData/ButtonData.xml",
+      "sha256": "2e35663b54c15923f6fcdf5156c8fd6a8b3866c5a92535db222020f9bd53dafa",
+      "bytes": 188,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/物品栏（购买，撤销，存档）.SC2Map/Base.SC2Data/GameData/UnitData.xml",
+      "example": "inventory-bank",
+      "relative_path": "Base.SC2Data/GameData/UnitData.xml",
+      "path": "references/local/examples/inventory-bank/Base.SC2Data/GameData/UnitData.xml",
+      "sha256": "735bd7bb8fb7f2ae0ebbe7006bdfa6da3c665e757a0f4f132691cdb0a124d19c",
+      "bytes": 326,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/物品栏（购买，撤销，存档）.SC2Map/DocumentInfo",
+      "example": "inventory-bank",
+      "relative_path": "DocumentInfo",
+      "path": "references/local/examples/inventory-bank/DocumentInfo",
+      "sha256": "316bf86f210dabfdfdc29932c4b4284487bfb311fc3c0ba7d363e4f93c6c6f66",
+      "bytes": 263,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/物品栏（购买，撤销，存档）.SC2Map/Preload.xml",
+      "example": "inventory-bank",
+      "relative_path": "Preload.xml",
+      "path": "references/local/examples/inventory-bank/Preload.xml",
+      "sha256": "eb662aa7a04c2682d036da21fbd3fc329872fb4b0a9c4d05ee3035c66e229cf4",
+      "bytes": 897,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/物品栏（购买，撤销，存档）.SC2Map/Triggers",
+      "example": "inventory-bank",
+      "relative_path": "Triggers",
+      "path": "references/local/examples/inventory-bank/Triggers",
+      "sha256": "243cda46dd6e893cd537f2b93d8a09ff95df28950ca9ad50f000f24eb445245c",
+      "bytes": 313033,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/物品栏（购买，撤销，存档）.SC2Map/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "example": "inventory-bank",
+      "relative_path": "zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "path": "references/local/examples/inventory-bank/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "sha256": "4873abf56392401e3c6b788d74a6d392474195d6c5776118ee9057aa382d0b10",
+      "bytes": 468,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/物品栏（购买，撤销，存档）.SC2Map/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "example": "inventory-bank",
+      "relative_path": "zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "path": "references/local/examples/inventory-bank/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "sha256": "5bab8abac514ba422fcd7ed9e8171af63050355b7da5a841e0caec83b9cdbe97",
+      "bytes": 1896,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/计分板.SC2Map/Base.SC2Data/GameData/EffectData.xml",
+      "example": "scoreboard",
+      "relative_path": "Base.SC2Data/GameData/EffectData.xml",
+      "path": "references/local/examples/scoreboard/Base.SC2Data/GameData/EffectData.xml",
+      "sha256": "5e431f7d97b7b0623fae629f87413eded5de4c5995ef9cd35f2f087a520ff6ed",
+      "bytes": 162,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/计分板.SC2Map/Base.SC2Data/GameData/WaterData.xml",
+      "example": "scoreboard",
+      "relative_path": "Base.SC2Data/GameData/WaterData.xml",
+      "path": "references/local/examples/scoreboard/Base.SC2Data/GameData/WaterData.xml",
+      "sha256": "d707a09090663b393ea423077e9008f581a160c62e5fcfefa15ee7a040f31f32",
+      "bytes": 1514,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/计分板.SC2Map/DocumentInfo",
+      "example": "scoreboard",
+      "relative_path": "DocumentInfo",
+      "path": "references/local/examples/spear-ui/DocumentInfo",
+      "sha256": "8da28d6d08c5212d0e512b3aaa8e3c4bf0ed83d275beebfca473aa4025a92896",
+      "bytes": 250,
+      "decision": "reuse"
+    },
+    {
+      "source": "参考资料/示例地图/计分板.SC2Map/Preload.xml",
+      "example": "scoreboard",
+      "relative_path": "Preload.xml",
+      "path": "references/local/examples/scoreboard/Preload.xml",
+      "sha256": "e9b74a701a0cdeaa37e2fe36d67a1c3cc8c709a7642015524f3797fa5088a489",
+      "bytes": 243,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/计分板.SC2Map/Triggers",
+      "example": "scoreboard",
+      "relative_path": "Triggers",
+      "path": "references/local/examples/scoreboard/Triggers",
+      "sha256": "6d8a3537daef3a62d309d8c2f1a71b829c0e939d364134514296aade08b857d1",
+      "bytes": 30469,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/计分板.SC2Map/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "example": "scoreboard",
+      "relative_path": "zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "path": "references/local/examples/scoreboard/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "sha256": "21987089b4a6be20d44f833ec2f1e0f97aad38b945a5f46b1e2518d72e6bd255",
+      "bytes": 289,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/计分板.SC2Map/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "example": "scoreboard",
+      "relative_path": "zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "path": "references/local/examples/scoreboard/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "sha256": "8fb9a5bf20c5d81d8d9335ea26e7899e811bd5bd691e98e6d6cb7ce688212f74",
+      "bytes": 297,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/造房子刷兵.SC2Map/Base.SC2Data/GameData/AbilData.xml",
+      "example": "building-spawns",
+      "relative_path": "Base.SC2Data/GameData/AbilData.xml",
+      "path": "references/local/examples/building-spawns/Base.SC2Data/GameData/AbilData.xml",
+      "sha256": "e5eb631f5401bb3c0374ffdcce98733fe9cce747908ae2e68622d1c49d91a8b6",
+      "bytes": 166,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/造房子刷兵.SC2Map/Base.SC2Data/GameData/UnitData.xml",
+      "example": "building-spawns",
+      "relative_path": "Base.SC2Data/GameData/UnitData.xml",
+      "path": "references/local/examples/building-spawns/Base.SC2Data/GameData/UnitData.xml",
+      "sha256": "54bcfb88142ed4a945919f2184a3eb4e14627b03ca35829ac715a952563d9a9b",
+      "bytes": 162,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/造房子刷兵.SC2Map/DocumentInfo",
+      "example": "building-spawns",
+      "relative_path": "DocumentInfo",
+      "path": "references/local/examples/watchtower-income/DocumentInfo",
+      "sha256": "b9c31c71f028c05fbd2c5449f7d87adc1ce5440ec78ebe8cc0a49291953154cc",
+      "bytes": 247,
+      "decision": "reuse"
+    },
+    {
+      "source": "参考资料/示例地图/造房子刷兵.SC2Map/Preload.xml",
+      "example": "building-spawns",
+      "relative_path": "Preload.xml",
+      "path": "references/local/examples/building-spawns/Preload.xml",
+      "sha256": "e802d895ce5e04a72e6e6a1a3a4aa5a33280fbbdf5743bd5169719ffdc4cbec8",
+      "bytes": 169,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/造房子刷兵.SC2Map/Triggers",
+      "example": "building-spawns",
+      "relative_path": "Triggers",
+      "path": "references/local/examples/building-spawns/Triggers",
+      "sha256": "81117e6c9d2b818cb65ff12abec6cee6df052b947422a4527d6730d8b55aa97c",
+      "bytes": 6199,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/造房子刷兵.SC2Map/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "example": "building-spawns",
+      "relative_path": "zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "path": "references/local/examples/watchtower-income/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "sha256": "2eb778b40f5ddb600ff518f8a9e15295067dd1994fa071bbcd6bf950b30174a4",
+      "bytes": 222,
+      "decision": "reuse"
+    },
+    {
+      "source": "参考资料/示例地图/造房子刷兵.SC2Map/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "example": "building-spawns",
+      "relative_path": "zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "path": "references/local/examples/building-spawns/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "sha256": "c36328c6a6b310fd685569eda34d5b7759f8f76db46cadd9e3267995fb2c8c82",
+      "bytes": 115,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/随机结盟，随机出生点.SC2Map/Base.SC2Data/GameData/GameUIData.xml",
+      "example": "alliances-spawns",
+      "relative_path": "Base.SC2Data/GameData/GameUIData.xml",
+      "path": "references/local/examples/alliances-spawns/Base.SC2Data/GameData/GameUIData.xml",
+      "sha256": "ea446ab8e248e960252cd19a001833b361133eb4357155c195bb855ba85f264a",
+      "bytes": 3518,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/随机结盟，随机出生点.SC2Map/Base.SC2Data/GameData/LightData.xml",
+      "example": "alliances-spawns",
+      "relative_path": "Base.SC2Data/GameData/LightData.xml",
+      "path": "references/local/examples/alliances-spawns/Base.SC2Data/GameData/LightData.xml",
+      "sha256": "c564953fd9c34b5a7289b12518a646990f95dafccf8c91e90e8fa60a2c1a952e",
+      "bytes": 934,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/随机结盟，随机出生点.SC2Map/Base.SC2Data/GameData/TerrainData.xml",
+      "example": "alliances-spawns",
+      "relative_path": "Base.SC2Data/GameData/TerrainData.xml",
+      "path": "references/local/examples/alliances-spawns/Base.SC2Data/GameData/TerrainData.xml",
+      "sha256": "eb9d5c9523dc2178f422c5aea519c4e640a1d4f4b81762f7d3584c9d3e54df2a",
+      "bytes": 250,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/随机结盟，随机出生点.SC2Map/DocumentInfo",
+      "example": "alliances-spawns",
+      "relative_path": "DocumentInfo",
+      "path": "references/local/examples/unit-arrivals/DocumentInfo",
+      "sha256": "a25929e2798a8de6f99a56e608f0e3ab192d6505e672f7fb66d3e8dc862e00e0",
+      "bytes": 260,
+      "decision": "reuse"
+    },
+    {
+      "source": "参考资料/示例地图/随机结盟，随机出生点.SC2Map/Preload.xml",
+      "example": "alliances-spawns",
+      "relative_path": "Preload.xml",
+      "path": "references/local/examples/alliances-spawns/Preload.xml",
+      "sha256": "e9c8f988078ebfc5656bc64a848d0129da6001ad0283811fa8eb27bab15b4060",
+      "bytes": 205,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/随机结盟，随机出生点.SC2Map/Triggers",
+      "example": "alliances-spawns",
+      "relative_path": "Triggers",
+      "path": "references/local/examples/alliances-spawns/Triggers",
+      "sha256": "53ca8db88e8c869b70081ac7f1d94b2a6e450398ed618685c59f2535ff6c11bd",
+      "bytes": 45859,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/随机结盟，随机出生点.SC2Map/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "example": "alliances-spawns",
+      "relative_path": "zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "path": "references/local/examples/alliances-spawns/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "sha256": "73e1a8320e3cdd41404538170dbeacc216b0e46175aaa2ed7423330bdf6d8281",
+      "bytes": 1324,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/随机结盟，随机出生点.SC2Map/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "example": "alliances-spawns",
+      "relative_path": "zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "path": "references/local/examples/alliances-spawns/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "sha256": "5d3f73e653d33e3d1a1e012b7b73533c02ad51ab00bebe0cd0c2662de7924a06",
+      "bytes": 394,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/难度投票系统创建演示.SC2Map/DocumentInfo",
+      "example": "difficulty-vote",
+      "relative_path": "DocumentInfo",
+      "path": "references/local/examples/random-abilities/DocumentInfo",
+      "sha256": "8ef9946849fbd283e3de334bac003df6d55546ecd403cf7ce6afc8c34f060c25",
+      "bytes": 247,
+      "decision": "reuse"
+    },
+    {
+      "source": "参考资料/示例地图/难度投票系统创建演示.SC2Map/Preload.xml",
+      "example": "difficulty-vote",
+      "relative_path": "Preload.xml",
+      "path": "references/local/examples/difficulty-vote/Preload.xml",
+      "sha256": "efe87a60f0d792e81d3a514632786cb297d1a37abfba1179745c88549b30ea2a",
+      "bytes": 205,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/难度投票系统创建演示.SC2Map/Triggers",
+      "example": "difficulty-vote",
+      "relative_path": "Triggers",
+      "path": "references/local/examples/difficulty-vote/Triggers",
+      "sha256": "aedcc1d14fb628e3921fd42a59c12ab7ae1dac46325ebbe20f63d04fdf1d53d0",
+      "bytes": 150525,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/难度投票系统创建演示.SC2Map/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "example": "difficulty-vote",
+      "relative_path": "zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "path": "references/local/examples/difficulty-vote/zhCN.SC2Data/LocalizedData/GameStrings.txt",
+      "sha256": "78ff04a885c90d63a517246722d4c8cbb113d6953e6be68f692186ea59946ab0",
+      "bytes": 1440,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/难度投票系统创建演示.SC2Map/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "example": "difficulty-vote",
+      "relative_path": "zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "path": "references/local/examples/difficulty-vote/zhCN.SC2Data/LocalizedData/TriggerStrings.txt",
+      "sha256": "d1bf4930ff90e8d2535cc5fc6d85a414a8b6ecb3d1c067159ce5f495fc77e4d6",
+      "bytes": 723,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/示例地图/TactTerrAI.galaxy",
+      "path": "references/local/ai/TactTerrAI.galaxy",
+      "sha256": "6ac9d254b4d48aeaf9b421326c6c7ac193d6607647ae4d220b9d62f24b3e4e2f",
+      "bytes": 64394,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/通用文本资源/星际2翻译记忆（tm）完整版.csv",
+      "path": "references/local/terminology/星际2翻译记忆（tm）完整版.csv",
+      "sha256": "a5712293b17f41a3006f10a6adcd40d24e5f07b333e8db9c40ebbd30e70a8b25",
+      "bytes": 4856915,
+      "decision": "import"
+    },
+    {
+      "source": "参考资料/通用文本资源/星际2词典.csv",
+      "path": "references/local/terminology/星际2词典.csv",
+      "sha256": "b8393c3f91dad8be6a4e98a7642fc4eacecdb9d7693c828f5959536b62a080e7",
+      "bytes": 348139,
+      "decision": "import"
+    }
+  ],
+  "excluded": [
+    {
+      "source": "参考资料/SC2GameData-master",
+      "reason": "shared external reference; use existing sc2-reference-query.py --root, do not vendor tree"
+    },
+    {
+      "source": "参考资料/官方数据工具",
+      "reason": "_sc2q.py and _sc2ref.py overlap existing catalog/reference query tools"
+    },
+    {
+      "source": "参考资料/教学视频",
+      "reason": "large video stays external; filename listed in README"
+    },
+    {
+      "source": "参考资料/示例地图",
+      "reason": "packed map, terrain, art, cache, generated Galaxy and binary metadata excluded; source excerpts only"
+    }
+  ]
+}

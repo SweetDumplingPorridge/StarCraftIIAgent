@@ -1,0 +1,6 @@
+Library/Name/1=方法1
+Library/Name/2=方法2
+Trigger/Name/lib_1_07B3EF8F=单位离开队伍2
+Trigger/Name/lib_1_64E5B45A=单位进入队伍1
+Trigger/Name/lib_1_A4FFB50B=队伍1加钱
+Trigger/Name/lib_2_A917ABD1=占领瞭望塔给钱

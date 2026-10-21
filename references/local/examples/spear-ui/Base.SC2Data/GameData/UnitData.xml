@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CUnit id="Barracks">
+        <CardLayouts index="0">
+            <LayoutButtons index="10" Face="CommanderAlarakHavocUpgradesPack" Type="Passive" AbilCmd="" Row="2" Column="4"/>
+            <LayoutButtons index="11" Face="Cancel" Type="AbilCmd" AbilCmd="BarracksAddOns,Halt" Row="2" Column="4"/>
+            <LayoutButtons index="12" Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
+            <LayoutButtons Face="CommanderVorazunDarkArchonUpgradesPack" Type="Passive" Row="1" Column="3"/>
+            <LayoutButtons Face="SelectBuilder" Type="SelectBuilder" Row="1" Column="3"/>
+            <LayoutButtons Face="CommanderVorazunImprovedShieldRegeneration" Type="Passive" Row="0" Column="4"/>
+            <LayoutButtons Face="CommanderKerriganImprovedLeapingStrike" Type="Passive" Row="1" Column="0"/>
+            <LayoutButtons Face="CommanderKerriganKerriganEnergyRegeneration" Type="Passive" Row="1" Column="1"/>
+            <LayoutButtons Face="CommanderArtanisHighArchon" Type="Passive" Row="1" Column="2"/>
+            <LayoutButtons Face="CommanderAbathurBaseTrait" Type="Passive" Row="2" Column="2"/>
+        </CardLayouts>
+    </CUnit>
+</Catalog>

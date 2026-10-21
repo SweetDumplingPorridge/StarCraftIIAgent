@@ -1,0 +1,9 @@
+﻿DocInfo/DescLong=完全没有任何描述。
+DocInfo/DescShort=任意
+DocInfo/Name=这只是另一张《星际争霸II》地图
+MapInfo/Player00/Name=中立
+MapInfo/Player01/Name=玩家1
+MapInfo/Player02/Name=敌对
+Param/Value/4BC96507=开关：
+Param/Value/AB351B2B=按钮
+Param/Value/D566E763=O开P关<n/>游戏每5秒创建单位<n/>所以按了开关没单位是正常的

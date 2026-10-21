@@ -1,0 +1,14 @@
+﻿Abil/Name/cs=超市
+Abil/Name/wpl=物品栏
+Button/Name/chaoshi=超市
+DocInfo/DescLong=完全没有任何描述。
+DocInfo/DescShort=任意
+DocInfo/Name=这只是另一张《星际争霸II》地图
+MapInfo/Player00/Name=中立
+MapInfo/Player01/Name=玩家1
+MapInfo/Player02/Name=敌对
+Param/Value/114C8B02=医疗包
+Param/Value/9C30A64C=撤销操作
+Param/Value/ACFD5C81=引力炸弹
+Param/Value/C6AB98D0=购买区域
+Param/Value/C8692CBC=手榴弹

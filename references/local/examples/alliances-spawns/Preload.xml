@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Preload>
+<Actor id="SYSTEM_ActorConfig"/>
+<Race id="Terr"/>
+<Terrain id="UlnarOuter"/>
+<Unit id="SCV"/>
+<Unit id="Probe"/>
+<Unit id="Drone"/>
+</Preload>

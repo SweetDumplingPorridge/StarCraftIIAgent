@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CUnit id="Odin">
+        <AbilArray Link="BuildInProgress"/>
+        <PlacementFootprint value="Footprint3x3"/>
+    </CUnit>
+    <CUnit id="OdinBuild">
+        <FlagArray index="Uncommandable" value="0"/>
+        <FlagArray index="Unselectable" value="0"/>
+        <FlagArray index="Untargetable" value="0"/>
+        <FlagArray index="Invulnerable" value="0"/>
+        <FlagArray index="ShowResources" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Attributes index="Armored" value="1"/>
+        <Attributes index="Mechanical" value="1"/>
+        <Attributes index="Massive" value="1"/>
+        <Attributes index="Heroic" value="1"/>
+        <CostResource index="Minerals" value="500"/>
+        <CostResource index="Vespene" value="200"/>
+        <RepairTime value="180"/>
+        <AbilArray Link="BuildInProgress"/>
+        <Radius value="1.5"/>
+        <InnerRadius value="0.8125"/>
+        <MinimapRadius value="1.25"/>
+    </CUnit>
+    <CUnit id="SCV">
+        <CardLayouts index="2" CardId="TBl2">
+            <LayoutButtons Face="Odin" Type="AbilCmd" AbilCmd="TerranBuild,Build8" Row="2" Column="2"/>
+        </CardLayouts>
+    </CUnit>
+</Catalog>

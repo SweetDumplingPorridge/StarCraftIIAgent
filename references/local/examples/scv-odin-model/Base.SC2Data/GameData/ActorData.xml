@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <!--                                                                                         -->
+    <!-- Odin .................................................................................. -->
+    <!--                                                                                         -->
+    <CActorUnit id="Odin">
+        <On Terms="UnitConstruction.Odin.Start" Send="Create OdinBuild"/>
+        <On Terms="UnitConstruction.Odin.Cancel" Target="OdinBuild" Send="Destroy"/>
+        <On Terms="UnitConstruction.Odin.Finish" Target="OdinBuild" Send="Destroy"/>
+        <On Terms="UnitConstruction.Odin.Start" Send="Destroy"/>
+        <On Terms="UnitConstruction.Odin.Finish" Send="Create"/>
+        <PlacementModel value="OdinBuild"/>
+    </CActorUnit>
+    <!--                                                                                         -->
+    <!-- Odin Build ............................................................................ -->
+    <!--                                                                                         -->
+    <CActorUnit id="OdinBuild">
+        <On Terms="ActorCreation" Send="AnimPlay build Stand,Work,End 0 -1.000000 -1.000000 1.604000 AsTimeScale"/>
+        <DeathArray index="Normal" ModelLink="OdinDeath" SoundLink="Odin_Explode" VoiceLink="OdinDeathVoice"/>
+        <DeathArray index="UnderConstruction" ModelLink="OdinDeath" SoundLink="Odin_Explode" VoiceLink="OdinDeathVoice"/>
+        <DeathArray index="Cancel">
+            <AnimProps value="Death"/>
+            <ModelLink value="OdinDeath"/>
+            <SoundLink value="Odin_Explode"/>
+            <VoiceLink value="OdinDeathVoice"/>
+        </DeathArray>
+    </CActorUnit>
+</Catalog>

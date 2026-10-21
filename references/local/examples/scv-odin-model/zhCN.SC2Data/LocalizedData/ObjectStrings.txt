@@ -1,0 +1,9 @@
+﻿Abil/EditorPrefix/TerranBuild=丨
+Actor/EditorPrefix/Odin=丨
+Actor/EditorPrefix/OdinBuild=丨
+Unit/EditorPrefix/Barracks=丨
+Unit/EditorPrefix/ImmortalAiur=丨
+Unit/EditorPrefix/Odin=丨
+Unit/EditorPrefix/OdinBuild=丨
+Unit/EditorPrefix/SCV=丨
+Unit/EditorSuffix/ImmortalAiur=- Aiur

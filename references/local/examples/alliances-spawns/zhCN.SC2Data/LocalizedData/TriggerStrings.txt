@@ -1,0 +1,10 @@
+﻿Library/Name/1=演示
+Trigger/Name/lib_1_2E87932C=随机结盟 随机出生点
+Trigger/Name/lib_1_6AA47DD4=初始化
+Variable/Name/lib_1_0855507E=Int 2
+Variable/Name/lib_1_380D0C1E=出生点
+Variable/Name/lib_1_456B7F24=Int 3
+Variable/Name/lib_1_4DDF309E=Int
+Variable/Name/lib_1_A32EF2A2=玩家组B
+Variable/Name/lib_1_BDBD1BAD=玩家组A
+Variable/Name/lib_1_EC07C746=随机玩家

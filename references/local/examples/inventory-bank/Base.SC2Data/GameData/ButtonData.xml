@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CButton id="chaoshi">
+        <Icon value="Assets\Textures\btn-upgrade-terran-mobiusreactor.dds"/>
+    </CButton>
+</Catalog>

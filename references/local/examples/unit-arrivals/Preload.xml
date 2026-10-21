@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preload>
+<Asset path="assets\textures\decal_spray_0033_01.lvl0" Type="Image"/>
+<Asset path="assets\textures\decal_spray_0033_01.dds" Type="Image"/>
+<Actor id="SYSTEM_ActorConfig"/>
+<Effect id="MercAirDrop"/>
+<Terrain id="HybridLabOuter"/>
+<Unit id="VikingFighter"/>
+<Unit id="Marauder"/>
+<Unit id="Zealot"/>
+<Unit id="Stalker"/>
+<Unit id="BanelingBurrowed"/>
+<Unit id="ZerglingBurrowed"/>
+<Unit id="InvisiblePylon"/>
+<Unit id="SuperWarpGate"/>
+<Unit id="TerranDropPod"/>
+</Preload>

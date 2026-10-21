@@ -35,6 +35,8 @@ Library selection follows `tools/sc2-trigger-query.py libraries` for the actual 
 
 ## Specialist Routing
 
+本 fork 的社区教程、术语资料及旧技能名兼容见 [sc2-community-reference](../sc2-community-reference/SKILL.md)。仅在需要这些补充来源时加载；官方及当前项目查询继续使用原有工具。
+
 After loading `sc2-galaxy-scripting` or `sc2-catalog-xml`, use that skill's own sub-skill table for the specific Galaxy API or catalog family.
 
 ## Large Lookup Sources (do NOT read start-to-finish)

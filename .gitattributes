@@ -5,3 +5,6 @@
 *.SC2Components text eol=lf
 *.SC2Bank text eol=lf
 *.txt text eol=lf
+
+# Imported reference excerpts preserve source bytes for SHA-256 provenance.
+references/local/** -text -whitespace

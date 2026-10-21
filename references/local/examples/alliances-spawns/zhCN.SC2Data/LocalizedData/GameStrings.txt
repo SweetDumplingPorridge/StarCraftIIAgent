@@ -1,0 +1,12 @@
+﻿DocInfo/DescLong=演示制作者：可乐<n/>星际争霸2 地图编辑器交流群：672777920<n/>多一个交流的空间，多一份答案。<n/>三人行 必有我师<n/>求知路漫漫其修远兮，吾将上下而求索。<n/>愿一路你我同行。<n/>
+DocInfo/DescShort=任意
+DocInfo/Name=地图编辑器交流群：672777920
+LoadingScreen/Subtitle=字幕：
+LoadingScreen/TextBody=星际争霸2 地图编辑器交流群：672777920<n/>多一个交流的空间，多一份答案。<n/>三人行 必有我师<n/>求知路漫漫其修远兮，吾将上下而求索。<n/>愿一路你我同行。
+LoadingScreen/Tip=帮助：地图编辑器交流群：672777920<n/>求知路漫漫其修远兮，吾将上下而求索。
+LoadingScreen/TipRestart=帮助重启：
+LoadingScreen/Title=标题：
+MapInfo/Player00/Name=中立
+MapInfo/Player01/Name=玩家1
+MapInfo/Player02/Name=敌对
+Param/Value/lib_1_4050FA42=<c val="008040">地</c><c val="148A45">图</c><c val="29944A">编</c><c val="3E9F4F">辑</c><c val="54AA55">器</c><c val="69B45A">交</c><c val="7EBF5F">流</c><c val="93C965">群</c><c val="A9D46A">：</c><c val="BEDE6F">6</c><c val="C5E271">7</c><c val="CCE573">2</c><c val="D3E975">7</c><c val="DAEC76">7</c><c val="E1F078">7</c><c val="E8F37A">9</c><c val="EFF77C">2</c><c val="F6FA7D">0</c>

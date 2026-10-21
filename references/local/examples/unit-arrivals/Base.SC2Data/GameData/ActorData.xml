@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CActorUnit id="VikingFighter">
+        <On Terms="Behavior.MercAirDropB.Create" Send="Create VikingFigther_Reentry"/>
+    </CActorUnit>
+    <CActorModel id="VikingFigther_Reentry" parent="ModelAdditionNoAnims">
+        <On Terms="ActorCreation" Send="AnimBracketStart BSDb Birth Stand Death ContentPlayOnce"/>
+        <On Terms="AnimBracketState.*.AfterClosing; AnimName BSDb" Send="Destroy"/>
+        <Model value="VikingMercenaryFighterReentry"/>
+    </CActorModel>
+</Catalog>

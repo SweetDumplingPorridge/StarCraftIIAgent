@@ -5,6 +5,7 @@
 - 技能：[统一入口](../skills/sc2-project-entry/SKILL.md)，按任务加载专用技能及 Galaxy、SC2 Data 子技能。
 - 工具：[工具指南](../tools/README.md)。未初始化时运行 `python tools/test-suite.py --scope tools` 和 `python tools/test-suite.py --scope docs`。
 - 官方依赖：[CASC 诊断、缓存与共用查询](reference/official-casc-cache.md)。
+- 本地补充：[社区案例、术语与旧技能兼容](../references/local/README.md)；按需加载 [补充资料技能](../skills/sc2-community-reference/SKILL.md)。
 - XML：[模式](implementation/xml-patterns.md)、[Catalog 规则](implementation/xml-patterns/catalog-rules.md)。
 - Galaxy：[语法陷阱](implementation/galaxy-gotchas.md)、[语言参考](reference/galaxy-language.md)。
 - 本地化：[规则](implementation/localization.md)。

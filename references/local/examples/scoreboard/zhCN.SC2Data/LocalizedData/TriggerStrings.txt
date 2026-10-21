@@ -1,0 +1,9 @@
+FunctionDef/Name/67DF62F1=重置函数
+ParamDef/Name/BDEC09D7=计分板
+Trigger/Name/00E15341=分数
+Trigger/Name/47415D2C=重置
+Trigger/Name/EF4CF53C=刷怪
+Trigger/Name/F459AB93=对战初始化
+Variable/Name/30C30EC3=分数
+Variable/Name/3C622695=点
+Variable/Name/8FCB721D=计分板1

@@ -1,0 +1,5 @@
+﻿Actor/EditorPrefix/VikingFighter=维京主演算体
+Actor/EditorPrefix/VikingFigther_Reentry=维京冒火
+Actor/EditorSuffix/VikingFighter=（在事件：开启里面设置）
+Actor/EditorSuffix/VikingFigther_Reentry=需要自己创建的演算体{双击查看（所设置都要对）}
+Actor/Name/VikingFigther_Reentry=VikingFigther_Reentry

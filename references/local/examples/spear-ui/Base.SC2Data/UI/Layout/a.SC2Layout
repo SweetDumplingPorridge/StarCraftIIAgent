@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Desc>
+    <Frame type="CommandPanel" name="CommandPanelTemplate" template="CommandPanel/CommandPanelTemplate">
+        <Width val="2300"/>
+        <Height val="200"/>
+        <Anchor side="Right" relative="$parent" pos="Min" offset="0"/>
+        <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+        <HideUnusedButtons val="true"/>
+        <DisplayCancelCommandCard val="false"/>
+        <UseGridHotkeys val="false"/>
+
+        <Frame type="CommandButton" name="CommandButton00" template="CommandButton/CommandButtonTemplate">
+        </Frame>
+
+        <Frame type="CommandButton" name="CommandButton01" template="CommandButton/CommandButtonTemplate">
+        </Frame>
+
+        <Frame type="CommandButton" name="CommandButton02" template="CommandButton/CommandButtonTemplate">
+        </Frame>
+
+        <Frame type="CommandButton" name="CommandButton03" template="CommandButton/CommandButtonTemplate">
+        </Frame>
+
+        <Frame type="CommandButton" name="CommandButton04" template="CommandButton/CommandButtonTemplate">
+        </Frame>
+
+        <Frame type="CommandButton" name="CommandButton05" template="CommandButton/CommandButtonTemplate">
+            <Anchor side="Top" relative="$parent/CommandButton04" pos="Max" offset="-80"/>
+            <Anchor side="Left" relative="$parent/CommandButton04" pos="Max" offset="0"/>
+        </Frame>
+
+        <Frame type="CommandButton" name="CommandButton06" template="CommandButton/CommandButtonTemplate">
+        </Frame>
+
+        <Frame type="CommandButton" name="CommandButton07" template="CommandButton/CommandButtonTemplate">
+        </Frame>
+
+        <Frame type="CommandButton" name="CommandButton08" template="CommandButton/CommandButtonTemplate">
+        </Frame>
+
+        <Frame type="CommandButton" name="CommandButton09" template="CommandButton/CommandButtonTemplate">
+        </Frame>
+
+        <Frame type="CommandButton" name="CommandButton10" template="CommandButton/CommandButtonTemplate">
+            <Anchor side="Top" relative="$parent/CommandButton09" pos="Min" offset="0"/>
+            <Anchor side="Left" relative="$parent/CommandButton09" pos="Min" offset="80"/>
+        </Frame>
+
+        <Frame type="CommandButton" name="CommandButton11" template="CommandButton/CommandButtonTemplate">
+        </Frame>
+
+        <Frame type="CommandButton" name="CommandButton12" template="CommandButton/CommandButtonTemplate">
+        </Frame>
+
+        <Frame type="CommandButton" name="CommandButton13" template="CommandButton/CommandButtonTemplate">
+        </Frame>
+
+        <Frame type="CommandButton" name="CommandButton14" template="CommandButton/CommandButtonTemplate">
+        </Frame>
+
+        <Animation name="FadeIn">
+            <Event event="OnShown" action="Reset,Play" frame="$this"/>
+
+            <Controller name="Fade_0" type="Fade" end="Pause" frame="$this">
+                <Key type="Curve" time="0" value="0.000000" inout="Linear,Slow"/>
+                <Key type="Curve" time="0.25" value="255.000000" inout="Slow,Linear"/>
+            </Controller>
+        </Animation>
+
+        <Frame type="Frame" name="UncontrollableUnitFrame">
+            <Visible val="false"/>
+
+            <Frame type="Label" name="UncontrollableUnitTitleLabel">
+                <Visible val="false"/>
+            </Frame>
+
+            <Frame type="Label" name="UncontrollableUnitPromptLabel">
+                <Visible val="false"/>
+            </Frame>
+        </Frame>
+    </Frame>
+</Desc>
